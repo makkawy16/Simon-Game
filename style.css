@@ -1,0 +1,66 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 4rem;
+}
+
+.container {
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.btn {
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    border-color: black;
+    border-width: 8px;
+    border-style: solid;
+    display: inline-block;
+    margin: 30px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.gameover {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.question {
+    text-align: start;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 30px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.answer {
+    text-align: start;
+    font-size: large;
+}
