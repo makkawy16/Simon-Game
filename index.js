@@ -36,6 +36,12 @@ $("body").keypress(function(event) {
 
 });
 
+//click on screen for mobile phones
+$("body").click(function(event) {
+    if (started === false)
+        nextSquenece(buttonColors)
+
+});
 
 //play after game over
 function startOver() {
